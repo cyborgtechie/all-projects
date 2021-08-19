@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer {
+  padding: 1% 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #aaa;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  align-items: center;
+  height: 70px;
+  padding: 1% 0;
+  background-color: #aaa;
+}
+
+header h1 {
+  margin: 0 20px;
+  font-size: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.header-list li {
+  margin-right: 15px;
+}
+
+.card {
+  padding: 30px;
+  background: rgba(228, 221, 235, 0.9);
+  border-radius: 30px;
+  margin: 1rem;
+}
+
+.jobs-section,
+.communities-section,
+.resources-section {
+  display: flex;
+  justify-content: center;
+}
+
+.card h4 {
+  margin: 0;
+}
+
+.tags {
+  font-size: 11px;
+  padding: 3px 4px;
+  border: 1px solid #87728c;
+  border-radius: 12px;
+}
+
+.signup-form {
+  margin-top: 70px;
+}
